@@ -1,0 +1,19 @@
+.header_button {
+    background-color: #fff !important;
+    padding: 0 !important;
+}
+
+.header_button:hover {
+    background-color: #ffffff75 !important;
+}
+
+.header_button a {
+    color: #333;
+    text-decoration: none;
+    padding: 4px 10px;
+}
+
+.header_button:has(a.active ) {
+    background-color: yellow !important;
+    border-bottom: 3px solid #fff;
+}
